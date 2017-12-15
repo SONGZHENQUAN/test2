@@ -3,6 +3,16 @@ package home;
 public class work {
 
 	public static void main(String[] args) {
-		System.out.println("Hello Word!");
+		int i = 0;
+		while(i < 10){
+			System.out.println(i);
+			if(i < 1){
+				break;
+			}
+			if(i == 5){
+				continue;
+			}
+			i++;
+		}
 	}
 }
